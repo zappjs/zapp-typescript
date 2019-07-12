@@ -4,6 +4,9 @@ export const TsConfigSchema = {
     compilerOptions: {
       type: 'object',
       properties: {
+        jsx: {
+          type: 'string'
+        },
         outDir: {
           type: 'string'
         },

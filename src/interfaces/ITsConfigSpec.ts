@@ -1,5 +1,6 @@
 export interface ITsConfigSpec {
   compilerOptions: {
+    jsx?: string;
     outDir?: string;
     lib?: string[];
     module?: string;
