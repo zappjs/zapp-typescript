@@ -10,5 +10,6 @@ export interface ITsConfigSpec {
     noUnusedLocals: boolean;
     target: string;
   };
-  exclude: string[];
+  include?: string[];
+  exclude?: string[];
 }

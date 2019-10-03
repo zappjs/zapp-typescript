@@ -36,6 +36,12 @@ export const TsConfigSchema = {
         }
       }
     },
+    include: {
+      type: 'array',
+      items: {
+        type: 'string'
+      }
+    },
     exclude: {
       type: 'array',
       items: {
