@@ -9,6 +9,7 @@ export interface ITsConfigSpec {
     noImplicitAny: boolean;
     noUnusedLocals: boolean;
     target: string;
+    typeRoots: string[];
   };
   include?: string[];
   exclude?: string[];

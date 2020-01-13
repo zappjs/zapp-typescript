@@ -33,6 +33,12 @@ export const TsConfigSchema = {
         },
         target: {
           type: 'boolean'
+        },
+        typeRoots: {
+          type: 'array',
+          items: {
+            type: 'string'
+          }
         }
       }
     },
